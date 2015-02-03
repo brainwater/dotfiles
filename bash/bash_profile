@@ -3,7 +3,7 @@
 
 ### Custom Variables ###
 
-EDITOR='emacs'
+export EDITOR='emacs'
 
 #### Custom Aliases ####
 # prefix custom aliases with 'm'
@@ -36,10 +36,11 @@ alias rrpi='ssh root@rpi.local'
 light_blue_prompt="01;34"
 light_green_prompt="01;32"
 light_cyan_prompt="01;36"
+light_red_prompt="01;31"
 
 #### Computer Specific Settings ####
 # Sharecare Mac
-if [ "sc2923.sharecare.local" = "$(uname -n)" ]
+if [[ "$(uname -n)" == sc2923* ]] || [[ "$(uname -n)" == SC2923* ]]
 then
     prompt_color="${light_blue_prompt}"
     export PATH=/usr/local/bin:$PATH
@@ -47,14 +48,29 @@ then
     if [ -f $(brew --prefix)/etc/bash_completion ]; then
 	. $(brew --prefix)/etc/bash_completion
     fi
+    #export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+    source ~/.profile
+    # Increase maven heap size to prevent oom errors
+    export MAVEN_OPTS="-Xmx1024m"
+    source $(brew --prefix nvm)/nvm.sh
+    export NVM_DIR=~/.nvm
 # Home Desktop (AMD)
 elif [ "blake-ubuntu-desktop" = "$(uname -n)" ]
 then
-    prompt_color="$light_green_prompt"
-# Home Destkop (Intel, fastest computer)
+    prompt_color="$light_red_prompt"
+# Home Destkop
 elif [ "blake-intel-desktop" = "$(uname -n)" ]
 then
+    prompt_color="$light_red_prompt"
+elif [ "rpi.local" = "$(uname -n)" ]
+then
+    prompt_color="$light_red_prompt"
+    # What should I have the prompt color be for the rpi?
+elif [ "dt-deb" = "$(uname -n)" ]
+then
     prompt_color="$light_cyan_prompt"
+else
+    prompt_color="$light_green_prompt"
 fi
 
 PS1="${debian_chroot:+($debian_chroot)}\[\033[00;33m\][\t]\[\033[0${prompt_color}m\][\u@\h:\w]\$\[\033[0m\] "
@@ -68,3 +84,5 @@ xterm*|rxvt*)
     ;;
 esac
 
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
