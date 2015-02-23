@@ -54,6 +54,7 @@ then
     export MAVEN_OPTS="-Xmx1024m"
     source $(brew --prefix nvm)/nvm.sh
     export NVM_DIR=~/.nvm
+    export JAVA_HOME="$(/usr/libexec/java_home)"
 # Home Desktop (AMD)
 elif [ "blake-ubuntu-desktop" = "$(uname -n)" ]
 then
