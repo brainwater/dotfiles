@@ -10,6 +10,9 @@
 ;; Found at http://www.emacswiki.org/emacs/ShowParenMode
 (show-paren-mode 1)
 
+(tool-bar-mode -1)
+(setq inhibit-splash-screen t)
+
 ;; Found at http://www.emacswiki.org/emacs/LoadPath
 (add-to-list 'load-path "~/.emacs.d/elisp/")
 
