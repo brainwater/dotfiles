@@ -4,9 +4,10 @@
 ### Custom Variables ###
 
 export EDITOR='emacs'
+EDITOR='emacs'
 
 #### Custom Aliases ####
-# prefix custom aliases with 'm'
+# prefix custom aliases use for shortening a command with 'm' and then the first letter of the command (or another letter that makes sense)
 # aliases that are not used for shortening a command should be prefixed with 'my'
 
 alias mygrep='grep -E'
@@ -19,8 +20,13 @@ alias mgs='git status'
 alias mgh='git help'
 alias mgd='git diff'
 alias mga='git add --all .'
+alias mgl='git log'
+alias mgc='git commit'
 
-# apt related aliases
+# Mercurial (hg) related aliases
+# prefix hg aliases with 'mg'
+
+# Apt related aliases
 # prefix apt aliases with ma
 
 alias macf='apt-cache search'
