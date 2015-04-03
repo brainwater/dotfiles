@@ -26,6 +26,11 @@ alias mgc='git commit'
 # Mercurial (hg) related aliases
 # prefix hg aliases with 'mg'
 
+alias mhs='hg status'
+alias mha='hg add'
+alias mhc='hg commit'
+alias mhl='hg log'
+
 # Apt related aliases
 # prefix apt aliases with ma
 
