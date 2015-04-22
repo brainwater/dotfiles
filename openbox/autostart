@@ -4,6 +4,8 @@ xscreensaver -nosplash &
 
 xmodmap .Xmodmap &
 
+xfsettingsd &
+
 tint2 &
 
 feh --bg-fill "${HOME}/.config/openbox/wallpapers/tropical-paradise-4k-uhd-wallpaper.jpeg"
