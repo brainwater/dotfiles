@@ -695,6 +695,12 @@ and back in -->
         <desktop>yes</desktop>
       </action>
     </keybind>
+    <!-- Keybindings for misc things -->
+    <keybind key="W-l">
+      <action name="Execute">
+	<command>xscreensaver-command -lock</command>
+      </action>
+    </keybind>
     <!-- Keybindings for running applications -->
     <keybind key="W-r">
       <keybind key="r">
