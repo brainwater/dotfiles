@@ -8,5 +8,5 @@ xfsettingsd &
 
 tint2 &
 
-feh --bg-fill "${HOME}/.config/openbox/wallpapers/tropical-paradise-4k-uhd-wallpaper.jpeg"
+feh --bg-fill "${HOME}/dotfiles/dotfiles-assets/wallpapers/tropical-paradise-4k-uhd-wallpaper.jpeg"
 
