@@ -368,75 +368,159 @@ and back in -->
     </keybind>
     <!-- Keybindings for focusing on a window in a grid -->
     <keybind key="W-C-q">
-      <action name="FocusOnPoint">
-        <x>1/8</x>
-        <y>1/6</y>
+      <action name="ForEach">
+	<query>
+	  <containsxpoint>1/8</containsxpoint>
+	  <containsypoint>1/6</containsypoint>
+	</query>
+	<then>
+	  <action name="Focus"/>
+	  <action name="Raise"/>
+	  <action name="Stop"/>
+	</then>
       </action>
     </keybind>
     <keybind key="W-C-w">
-      <action name="FocusOnPoint">
-        <x>3/8</x>
-        <y>1/6</y>
+      <action name="ForEach">
+	<query>
+	  <containsxpoint>3/8</containsxpoint>
+	  <containsypoint>1/6</containsypoint>
+	</query>
+	<then>
+	  <action name="Focus"/>
+	  <action name="Raise"/>
+	  <action name="Stop"/>
+	</then>
       </action>
     </keybind>
     <keybind key="W-C-e">
-      <action name="FocusOnPoint">
-        <x>5/8</x>
-        <y>1/6</y>
+      <action name="ForEach">
+	<query>
+	  <containsxpoint>5/8</containsxpoint>
+	  <containsypoint>1/6</containsypoint>
+	</query>
+	<then>
+	  <action name="Focus"/>
+	  <action name="Raise"/>
+	  <action name="Stop"/>
+	</then>
       </action>
     </keybind>
     <keybind key="W-C-r">
-      <action name="FocusOnPoint">
-        <x>7/8</x>
-        <y>1/6</y>
+      <action name="ForEach">
+	<query>
+	  <containsxpoint>7/8</containsxpoint>
+	  <containsypoint>1/6</containsypoint>
+	</query>
+	<then>
+	  <action name="Focus"/>
+	  <action name="Raise"/>
+	  <action name="Stop"/>
+	</then>
       </action>
     </keybind>
     <keybind key="W-C-a">
-      <action name="FocusOnPoint">
-        <x>1/8</x>
-        <y>3/6</y>
+      <action name="ForEach">
+	<query>
+	  <containsxpoint>1/8</containsxpoint>
+	  <containsypoint>3/6</containsypoint>
+	</query>
+	<then>
+	  <action name="Focus"/>
+	  <action name="Raise"/>
+	  <action name="Stop"/>
+	</then>
       </action>
     </keybind>
     <keybind key="W-C-s">
-      <action name="FocusOnPoint">
-        <x>3/8</x>
-        <y>3/6</y>
+      <action name="ForEach">
+	<query>
+	  <containsxpoint>3/8</containsxpoint>
+	  <containsypoint>3/6</containsypoint>
+	</query>
+	<then>
+	  <action name="Focus"/>
+	  <action name="Raise"/>
+	  <action name="Stop"/>
+	</then>
       </action>
     </keybind>
     <keybind key="W-C-d">
-      <action name="FocusOnPoint">
-        <x>5/8</x>
-        <y>3/6</y>
+      <action name="ForEach">
+	<query>
+	  <containsxpoint>5/8</containsxpoint>
+	  <containsypoint>3/6</containsypoint>
+	</query>
+	<then>
+	  <action name="Focus"/>
+	  <action name="Raise"/>
+	  <action name="Stop"/>
+	</then>
       </action>
     </keybind>
     <keybind key="W-C-f">
-      <action name="FocusOnPoint">
-        <x>7/8</x>
-        <y>3/6</y>
+      <action name="ForEach">
+	<query>
+	  <containsxpoint>7/8</containsxpoint>
+	  <containsypoint>3/6</containsypoint>
+	</query>
+	<then>
+	  <action name="Focus"/>
+	  <action name="Raise"/>
+	  <action name="Stop"/>
+	</then>
       </action>
     </keybind>
     <keybind key="W-C-z">
-      <action name="FocusOnPoint">
-        <x>1/8</x>
-        <y>5/6</y>
+      <action name="ForEach">
+	<query>
+	  <containsxpoint>1/8</containsxpoint>
+	  <containsypoint>5/6</containsypoint>
+	</query>
+	<then>
+	  <action name="Focus"/>
+	  <action name="Raise"/>
+	  <action name="Stop"/>
+	</then>
       </action>
     </keybind>
     <keybind key="W-C-x">
-      <action name="FocusOnPoint">
-        <x>3/8</x>
-        <y>5/6</y>
+      <action name="ForEach">
+	<query>
+	  <containsxpoint>3/8</containsxpoint>
+	  <containsypoint>5/6</containsypoint>
+	</query>
+	<then>
+	  <action name="Focus"/>
+	  <action name="Raise"/>
+	  <action name="Stop"/>
+	</then>
       </action>
     </keybind>
     <keybind key="W-C-c">
-      <action name="FocusOnPoint">
-        <x>5/8</x>
-        <y>5/6</y>
+      <action name="ForEach">
+	<query>
+	  <containsxpoint>5/8</containsxpoint>
+	  <containsypoint>5/6</containsypoint>
+	</query>
+	<then>
+	  <action name="Focus"/>
+	  <action name="Raise"/>
+	  <action name="Stop"/>
+	</then>
       </action>
     </keybind>
     <keybind key="W-C-v">
-      <action name="FocusOnPoint">
-        <x>7/8</x>
-        <y>5/6</y>
+      <action name="ForEach">
+	<query>
+	  <containsxpoint>7/8</containsxpoint>
+	  <containsypoint>5/6</containsypoint>
+	</query>
+	<then>
+	  <action name="Focus"/>
+	  <action name="Raise"/>
+	  <action name="Stop"/>
+	</then>
       </action>
     </keybind>
     <!-- Keybindings for resizing windows in a grid -->
