@@ -369,6 +369,7 @@ and back in -->
     <!-- Keybindings for focusing on a window in a grid -->
     <keybind key="W-C-q">
       <action name="ForEach">
+	<stacking_order>true</stacking_order>
 	<query>
 	  <containsxpoint>1/8</containsxpoint>
 	  <containsypoint>1/6</containsypoint>
@@ -382,6 +383,7 @@ and back in -->
     </keybind>
     <keybind key="W-C-w">
       <action name="ForEach">
+	<stacking_order>true</stacking_order>
 	<query>
 	  <containsxpoint>3/8</containsxpoint>
 	  <containsypoint>1/6</containsypoint>
@@ -395,6 +397,7 @@ and back in -->
     </keybind>
     <keybind key="W-C-e">
       <action name="ForEach">
+	<stacking_order>true</stacking_order>
 	<query>
 	  <containsxpoint>5/8</containsxpoint>
 	  <containsypoint>1/6</containsypoint>
@@ -408,6 +411,7 @@ and back in -->
     </keybind>
     <keybind key="W-C-r">
       <action name="ForEach">
+	<stacking_order>true</stacking_order>
 	<query>
 	  <containsxpoint>7/8</containsxpoint>
 	  <containsypoint>1/6</containsypoint>
@@ -421,6 +425,7 @@ and back in -->
     </keybind>
     <keybind key="W-C-a">
       <action name="ForEach">
+	<stacking_order>true</stacking_order>
 	<query>
 	  <containsxpoint>1/8</containsxpoint>
 	  <containsypoint>3/6</containsypoint>
@@ -434,6 +439,7 @@ and back in -->
     </keybind>
     <keybind key="W-C-s">
       <action name="ForEach">
+	<stacking_order>true</stacking_order>
 	<query>
 	  <containsxpoint>3/8</containsxpoint>
 	  <containsypoint>3/6</containsypoint>
@@ -447,6 +453,7 @@ and back in -->
     </keybind>
     <keybind key="W-C-d">
       <action name="ForEach">
+	<stacking_order>true</stacking_order>
 	<query>
 	  <containsxpoint>5/8</containsxpoint>
 	  <containsypoint>3/6</containsypoint>
@@ -460,6 +467,7 @@ and back in -->
     </keybind>
     <keybind key="W-C-f">
       <action name="ForEach">
+	<stacking_order>true</stacking_order>
 	<query>
 	  <containsxpoint>7/8</containsxpoint>
 	  <containsypoint>3/6</containsypoint>
@@ -473,6 +481,7 @@ and back in -->
     </keybind>
     <keybind key="W-C-z">
       <action name="ForEach">
+	<stacking_order>true</stacking_order>
 	<query>
 	  <containsxpoint>1/8</containsxpoint>
 	  <containsypoint>5/6</containsypoint>
@@ -486,6 +495,7 @@ and back in -->
     </keybind>
     <keybind key="W-C-x">
       <action name="ForEach">
+	<stacking_order>true</stacking_order>
 	<query>
 	  <containsxpoint>3/8</containsxpoint>
 	  <containsypoint>5/6</containsypoint>
@@ -499,6 +509,7 @@ and back in -->
     </keybind>
     <keybind key="W-C-c">
       <action name="ForEach">
+	<stacking_order>true</stacking_order>
 	<query>
 	  <containsxpoint>5/8</containsxpoint>
 	  <containsypoint>5/6</containsypoint>
@@ -512,6 +523,7 @@ and back in -->
     </keybind>
     <keybind key="W-C-v">
       <action name="ForEach">
+	<stacking_order>true</stacking_order>
 	<query>
 	  <containsxpoint>7/8</containsxpoint>
 	  <containsypoint>5/6</containsypoint>
