@@ -294,6 +294,26 @@ and back in -->
         <desktop>6</desktop>
       </action>
     </keybind>
+    <keybind key="W-F7">
+      <action name="Desktop">
+        <desktop>7</desktop>
+      </action>
+    </keybind>
+    <keybind key="W-F7">
+      <action name="Desktop">
+        <desktop>7</desktop>
+      </action>
+    </keybind>
+    <keybind key="W-F8">
+      <action name="Desktop">
+        <desktop>8</desktop>
+      </action>
+    </keybind>
+    <keybind key="W-F9">
+      <action name="Desktop">
+        <desktop>9</desktop>
+      </action>
+    </keybind>
     <keybind key="C-W-F1">
       <action name="SendToDesktop">
         <desktop>1</desktop>
