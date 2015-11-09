@@ -8,3 +8,4 @@ ln -n -s ../dotfiles/emacs/init.el .emacs.d/init.el
 ln -n -s ../dotfiles/emacs/elisp .emacs.d/elisp
 ln -n -s dotfiles/bash/bash_profile .bash_profile
 ln -n -s dotfiles/xmodmap/Xmodmap .Xmodmap
+ln -n -s dotfiles/screen/screenrc .screenrc
