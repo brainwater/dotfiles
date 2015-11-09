@@ -55,6 +55,8 @@
 (require 'fill-column-indicator)
 (add-hook 'c-mode-hook 'fci-mode)
 (add-hook 'python-mode-hook 'fci-mode)
+(remove-hook 'python-mode-hook 'pylint-add-key-bindings)
+(remove-hook 'python-mode-hook 'pylint-add-menu-items)
 
 (setq-default c-default-style "linux"
 	      c-basic-offset 4)
