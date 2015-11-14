@@ -1,3 +1,6 @@
 [submodule "dotfiles-assets"]
 	path = dotfiles-assets
 	url = git@bitbucket.org:brainwater/dotfiles-assets.git
+[submodule "dotfiles-private"]
+	path = dotfiles-private
+	url = git@bitbucket.org:brainwater/dotfiles-private.git
