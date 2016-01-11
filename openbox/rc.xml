@@ -395,6 +395,7 @@ and back in -->
 	<query>
 	  <containsxpoint>1/8</containsxpoint>
 	  <containsypoint>1/6</containsypoint>
+          <desktop>current</desktop>
 	</query>
 	<then>
 	  <action name="Focus"/>
@@ -409,6 +410,7 @@ and back in -->
 	<query>
 	  <containsxpoint>3/8</containsxpoint>
 	  <containsypoint>1/6</containsypoint>
+          <desktop>current</desktop>
 	</query>
 	<then>
 	  <action name="Focus"/>
@@ -423,6 +425,7 @@ and back in -->
 	<query>
 	  <containsxpoint>5/8</containsxpoint>
 	  <containsypoint>1/6</containsypoint>
+          <desktop>current</desktop>
 	</query>
 	<then>
 	  <action name="Focus"/>
@@ -437,6 +440,7 @@ and back in -->
 	<query>
 	  <containsxpoint>7/8</containsxpoint>
 	  <containsypoint>1/6</containsypoint>
+          <desktop>current</desktop>
 	</query>
 	<then>
 	  <action name="Focus"/>
@@ -451,6 +455,7 @@ and back in -->
 	<query>
 	  <containsxpoint>1/8</containsxpoint>
 	  <containsypoint>3/6</containsypoint>
+          <desktop>current</desktop>
 	</query>
 	<then>
 	  <action name="Focus"/>
@@ -465,6 +470,7 @@ and back in -->
 	<query>
 	  <containsxpoint>3/8</containsxpoint>
 	  <containsypoint>3/6</containsypoint>
+          <desktop>current</desktop>
 	</query>
 	<then>
 	  <action name="Focus"/>
@@ -479,6 +485,7 @@ and back in -->
 	<query>
 	  <containsxpoint>5/8</containsxpoint>
 	  <containsypoint>3/6</containsypoint>
+          <desktop>current</desktop>
 	</query>
 	<then>
 	  <action name="Focus"/>
@@ -493,6 +500,7 @@ and back in -->
 	<query>
 	  <containsxpoint>7/8</containsxpoint>
 	  <containsypoint>3/6</containsypoint>
+          <desktop>current</desktop>
 	</query>
 	<then>
 	  <action name="Focus"/>
@@ -507,6 +515,7 @@ and back in -->
 	<query>
 	  <containsxpoint>1/8</containsxpoint>
 	  <containsypoint>5/6</containsypoint>
+          <desktop>current</desktop>
 	</query>
 	<then>
 	  <action name="Focus"/>
@@ -521,6 +530,7 @@ and back in -->
 	<query>
 	  <containsxpoint>3/8</containsxpoint>
 	  <containsypoint>5/6</containsypoint>
+          <desktop>current</desktop>
 	</query>
 	<then>
 	  <action name="Focus"/>
@@ -535,6 +545,7 @@ and back in -->
 	<query>
 	  <containsxpoint>5/8</containsxpoint>
 	  <containsypoint>5/6</containsypoint>
+          <desktop>current</desktop>
 	</query>
 	<then>
 	  <action name="Focus"/>
@@ -549,6 +560,7 @@ and back in -->
 	<query>
 	  <containsxpoint>7/8</containsxpoint>
 	  <containsypoint>5/6</containsypoint>
+          <desktop>current</desktop>
 	</query>
 	<then>
 	  <action name="Focus"/>
