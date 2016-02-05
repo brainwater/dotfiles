@@ -8,6 +8,8 @@ xfsettingsd &
 
 tint2 &
 
+volumeicon &
+
 feh --bg-fill "${HOME}/dotfiles/dotfiles-assets/wallpapers/tropical-paradise-4k-uhd-wallpaper.jpeg"
 
 sleep 5 && feh --bg-fill "${HOME}/dotfiles/dotfiles-assets/wallpapers/tropical-paradise-4k-uhd-wallpaper.jpeg" &
