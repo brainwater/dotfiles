@@ -838,6 +838,11 @@ and back in -->
           <command>gmrun</command>
         </action>
       </keybind>
+      <keybind key="d">
+        <action name="Execute">
+          <command>~/bin/fixscreen.bash</command>
+        </action>
+      </keybind>
       <keybind key="k">
         <action name="Execute">
           <startupnotify>

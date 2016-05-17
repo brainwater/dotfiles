@@ -14,3 +14,4 @@ ln -n -s ../../dotfiles/git/ignore .config/git/ignore
 mkdir bin
 ln -n -s ../dotfiles/dotfiles-private/scripts/tunnel-listen bin/tunnel-listen
 ln -n -s ../dotfiles/dotfiles-private/scripts/tunnel-connect bin/tunnel-connect
+ln -n -s ../dotfiles/openbox/fixscreen.bash bin/fixscreen.bash
