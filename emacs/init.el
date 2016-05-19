@@ -34,8 +34,8 @@
 
 (global-linum-mode t)
 
-(require 'ido)
-(ido-mode t)
+;;;(require 'ido)
+;;;(ido-mode t)
 
 (require 'python-mode)
 (setq-default py-shell-name "ipython3")
