@@ -15,3 +15,4 @@ mkdir bin
 ln -n -s ../dotfiles/dotfiles-private/scripts/tunnel-listen bin/tunnel-listen
 ln -n -s ../dotfiles/dotfiles-private/scripts/tunnel-connect bin/tunnel-connect
 ln -n -s ../dotfiles/openbox/fixscreen.bash bin/fixscreen.bash
+ln -n -s ../dotfiles/dotfiles-private/scripts/textme bin/textme
