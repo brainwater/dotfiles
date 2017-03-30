@@ -74,12 +74,13 @@
 (define-key ggtags-mode-map (kbd "C-c g u") 'ggtags-update-tags)
 
 (setq-default c-default-style "linux"
-	      c-basic-offset 4)
+	      c-basic-offset 2)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(c-basic-offset 2)
  '(custom-enabled-themes (quote (manoj-dark)))
  '(indent-tabs-mode nil))
 (custom-set-faces
