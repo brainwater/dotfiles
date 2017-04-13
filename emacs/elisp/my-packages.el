@@ -8,6 +8,7 @@
 	  (setq retval nil)))))
 
 (package-initialize)
+
 (unless (my-packages-installed-p)
   ;; check for new packages (package versions)
   (message "%s" "Emacs is now refreshing its package database...")
