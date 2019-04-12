@@ -113,3 +113,5 @@ esac
 export PATH="${PATH}:${HOME}/bin"
 # Disable because I haven't used it recently
 #export PATH="${PATH}:${HOME}/bin/npm/bin"
+
+export PATH="$HOME/.cargo/bin:$PATH"

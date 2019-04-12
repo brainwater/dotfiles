@@ -4,15 +4,15 @@
 ;; Add marmalade, melpa, and org repositories
 ;;(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages"))
 ;;(add-to-list 'package-archives '("gnu" . "https://elpa.gnu.org/packages/"))
-(add-to-list 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/"))
+;;(add-to-list 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/"))
 ;;(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages"))
-;;(setq package-archives '(("melpa" . "https://melpa.org/packages/")))
-			 ;;("gnu" . "https://elpa.gnu.org/packages/")
-			 ;;("melpa" . "https://melpa.milkbox.net/packages/")
+(setq package-archives '(("melpa" . "https://melpa.org/packages/")
+      ("gnu" . "https://elpa.gnu.org/packages/")))
+      ;;("melpa" . "https://melpa.milkbox.net/packages/")
                          
                           ;;("marmalade" . "https://marmalade-repo.org/packages/")))
 			 ;;)
-
+;;(package-refresh-contents)
 ;; Found at http://www.emacswiki.org/emacs/ShowParenMode
 (show-paren-mode 1)
 
@@ -31,11 +31,12 @@
     fill-column-indicator
     elpy
     ggtags
+    rust-mode
     ) "List of packages to ensure are installed at launch." )
 
 (require 'my-packages)
 
-(add-hook 'haskell-mode-hook 'turn-on-haskell-indentation)
+;;(add-hook 'haskell-mode-hook 'turn-on-haskell-indentation)
 
 (global-linum-mode t)
 
@@ -44,16 +45,16 @@
 ;;;(ido-mode t)
 
 
-(require 'auto-complete)
-(require 'auto-complete-config)
+;;(require 'auto-complete)
+;;(require 'auto-complete-config)
 
-(elpy-enable)
-(pyvenv-activate (substitute-in-file-name "$HOME/anaconda3"))
+;;(elpy-enable)
+;;(pyvenv-activate (substitute-in-file-name "$HOME/anaconda3"))
 
 
-(require 'fill-column-indicator)
-(add-hook 'c-mode-hook 'fci-mode)
-(add-hook 'python-mode-hook 'fci-mode)
+;;(require 'fill-column-indicator)
+;;(add-hook 'c-mode-hook 'fci-mode)
+;;(add-hook 'python-mode-hook 'fci-mode)
 
 (require 'ggtags)
 (add-hook 'c-mode-common-hook
