@@ -79,7 +79,10 @@
  ;; If there is more than one, they won't work right.
  '(c-basic-offset 2)
  '(custom-enabled-themes (quote (manoj-dark)))
- '(indent-tabs-mode nil))
+ '(indent-tabs-mode nil)
+ '(package-selected-packages
+   (quote
+    (rust-mode ggtags elpy fill-column-indicator auto-complete haskell-mode slime))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

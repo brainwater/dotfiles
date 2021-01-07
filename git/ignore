@@ -30,3 +30,6 @@ tramp
 
 # cask packages
 .cask/
+
+# python virtualenv folder
+env/
