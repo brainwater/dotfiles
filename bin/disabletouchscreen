@@ -1,0 +1,11 @@
+#!/bin/bash
+
+export DISPLAY=:0.0
+
+for i in $(seq 20)
+do
+if $(xinput list-props "$i" | grep -q "ELAN Touchscreen")
+then
+    xinput disable "$i"
+fi
+done
