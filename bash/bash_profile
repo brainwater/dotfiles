@@ -26,21 +26,21 @@ alias mgc='git commit'
 # Mercurial (hg) related aliases
 # prefix hg aliases with 'mg'
 
-alias mhs='hg status'
-alias mha='hg add'
-alias mhc='hg commit'
-alias mhl='hg log'
+#alias mhs='hg status'
+#alias mha='hg add'
+#alias mhc='hg commit'
+#alias mhl='hg log'
 
 # Apt related aliases
 # prefix apt aliases with ma
 
-alias macf='apt-cache search'
-alias macs='apt-cache show'
+#alias macf='apt-cache search'
+#alias macs='apt-cache show'
 
 # Rpi related aliases
 
-alias rpi='ssh blake@rpi.local'
-alias rrpi='ssh root@rpi.local'
+#alias rpi='ssh blake@rpi.local'
+#alias rrpi='ssh root@rpi.local'
 
 # Customize Prompt
 # old prompt: PS1="\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ "
@@ -50,6 +50,7 @@ light_cyan_prompt="01;36"
 light_red_prompt="01;31"
 
 computer_name="$(uname -n)"
+full_uname="$(uname -a)"
 
 #### Computer Specific Settings ####
 # Old Mac
@@ -68,6 +69,10 @@ then
     source $(brew --prefix nvm)/nvm.sh
     export NVM_DIR=~/.nvm
     export JAVA_HOME="$(/usr/libexec/java_home)"
+elif [[ "${computer_name}" == APL-0673* ]] || [[ "${full_uname}" == Darwin* ]]
+then
+  prompt_color="${light_blue_prompt}"
+  export PATH="${PATH}:/usr/local/go/bin"
 # Home Desktop (AMD)
 elif [ "blake-ubuntu-desktop" = "${computer_name}" ]
 then
@@ -114,4 +119,5 @@ export PATH="${PATH}:${HOME}/bin"
 # Disable because I haven't used it recently
 #export PATH="${PATH}:${HOME}/bin/npm/bin"
 
-export PATH="$HOME/.cargo/bin:$PATH"
+# Disable since I don't currently use it, is this for rust?
+#export PATH="$HOME/.cargo/bin:$PATH"

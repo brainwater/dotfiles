@@ -32,6 +32,8 @@
     elpy
     ggtags
     rust-mode
+    php-mode
+    go-mode
     ) "List of packages to ensure are installed at launch." )
 
 (require 'my-packages)
@@ -78,14 +80,13 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(c-basic-offset 2 t)
- '(custom-enabled-themes (quote (manoj-dark)))
+ '(custom-enabled-themes '(manoj-dark))
  '(indent-tabs-mode nil)
  '(package-selected-packages
-   (quote
-    (rust-mode ggtags elpy fill-column-indicator auto-complete haskell-mode slime))))
+   '(rust-mode ggtags elpy fill-column-indicator auto-complete haskell-mode slime)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "black" :foreground "WhiteSmoke" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 100 :width normal :foundry "unknown" :family "DejaVu Sans Mono")))))
+ '(default ((t (:inherit nil :extend nil :stipple nil :background "black" :foreground "WhiteSmoke" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 130 :width normal :foundry "nil" :family "Helvetica")))))
