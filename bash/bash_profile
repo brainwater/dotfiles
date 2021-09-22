@@ -72,7 +72,7 @@ then
 elif [[ "${computer_name}" == APL-0673* ]] || [[ "${full_uname}" == Darwin* ]]
 then
   prompt_color="${light_blue_prompt}"
-  export PATH="${PATH}:/usr/local/go/bin"
+  export PATH="${PATH}:/usr/local/go/bin:${HOME}/go/bin:${HOME}/google-cloud-sdk/bin"
 # Home Desktop (AMD)
 elif [ "blake-ubuntu-desktop" = "${computer_name}" ]
 then

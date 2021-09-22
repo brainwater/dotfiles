@@ -34,6 +34,7 @@
     rust-mode
     php-mode
     go-mode
+    lua-mode
     ) "List of packages to ensure are installed at launch." )
 
 (require 'my-packages)
